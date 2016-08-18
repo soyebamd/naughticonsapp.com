@@ -1,0 +1,485 @@
+/*css*/
+
+
+
+@font-face {
+
+ font-family: 'HelveticaRoundedLT-Bold';
+
+ src: url('../fonts/HelveticaNeueLTStd-XBlkCnO.otf');
+
+ font-weight: normal;
+
+ font-style: normal;
+
+}
+
+ @font-face {
+
+ font-family: 'Helvetica';
+
+ src: url('../fonts/Helvetica.otf');
+
+ font-weight: normal;
+
+ font-style: normal;
+
+}
+
+body {
+
+	font-family: 'Helvetica';
+
+}
+
+p {
+
+	font-size:12px;
+
+	margin-bottom:15px;
+
+}
+
+.container {
+
+	max-width: 100%;
+
+	width: 1600px;
+
+}
+
+#header {
+
+	height:945px;
+
+	background:url(../images/header.jpg) no-repeat center top;
+
+	background-size:cover;
+
+	color:#fff;
+
+}
+
+.social-icons li {
+
+	padding:45px 5px;
+
+}
+
+.social-icons li a {
+
+	color:#fff;
+
+	font-size: 18px;
+
+	margin: 0 2px;
+
+}
+
+nav[role="navigation"] {
+
+	height:120px;
+
+}
+
+#logo {
+
+	margin:36px 0;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+	font-family: 'HelveticaRoundedLT-Bold';
+
+	margin-bottom:15px;
+
+}
+
+.app-icons {
+
+	margin:30px 0;
+
+}
+
+.app-store, .google-play {
+
+	margin:0 12px 0 0;
+
+}
+
+.app-store img{
+
+	height: 55px;
+	width: auto;
+}
+
+h1 {
+
+	font-size:80px;
+
+	color:#ebedf1;
+
+}
+
+h2 {
+
+	font-size:40px;
+
+}
+
+.font-blue {
+
+	color:#14508d;
+
+}
+
+.font-white {
+
+	color:#fff;
+
+}
+
+#go-ahead {
+
+	margin-top:41px;
+
+}
+
+.iPhone {
+
+	margin-right:-43px;
+
+}
+
+.center-block {
+
+	margin:auto;
+
+	float:none;
+
+}
+
+#coming-soon {
+
+	height:1076px;
+
+	background:url(../images/coming-soon.jpg) no-repeat center top;
+
+	padding-top:255px;
+
+	color:#fff;
+
+}
+
+#coming-soon img {
+
+	width: 818px;
+
+	margin: 10px 0px;
+
+}
+
+#subscription {
+
+	height:362px;
+
+	display:table;
+
+	width:100%;
+
+}
+
+#subscription .row {
+
+	display: table-cell;
+
+	vertical-align: middle;
+
+}
+
+.form-control {
+
+	width:350px!important;
+
+	height:50px;
+
+border:solid: 2px #d1d2d7;
+
+	border-radius:50px;
+
+}
+
+.btn-default {
+
+	margin-left: -49px;
+
+	width:152px;
+
+	height:50px;
+
+	border-color:#215ea1;
+
+	border-radius:50px;
+
+	background:#215ea1;
+
+	color:#fff;
+
+}
+
+form {
+
+	margin:25px 0;
+
+	text-transform:uppercase;
+
+}
+
+#footer {
+
+	background:#2461a3;
+
+	color:#fff;
+
+	padding-top:30px;
+
+	padding-bottom:30px;
+
+}
+
+#footer a {
+
+	color:#fff;
+
+}
+
+#footer .social-icons li {
+
+	padding: 10px 5px;
+
+}
+
+ @media(max-width:992px) {
+
+ h1 {
+
+ font-size: 50px;
+
+}
+
+ .app-store, .app-icons {
+
+margin:10px 0;
+
+display:block;
+
+}
+
+ nav[role="navigation"] {
+
+ height: 80px;
+
+ text-align:center;
+
+}
+
+}
+
+ @media(max-width:1308px) {
+
+ 	h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.app-store img, .google-play img{
+    height: 40px;
+    }
+
+}
+
+ @media(max-width:768px) {
+
+ h1 {
+
+ font-size: 58px;
+
+ text-align: center;
+
+}
+
+ .app-icons {
+
+ margin: 10px 0;
+
+ display: block;
+
+ text-align: center;
+
+}
+
+ .app-icons {
+
+margin: 41px 0;
+
+}
+
+ .app-store, .google-play {
+
+ margin: 10px 0;
+
+display:inline-block;
+
+}
+
+ .naughtiest-icons {
+
+float:none!important;
+
+margin:auto;
+
+}
+
+ nav[role="navigation"] {
+
+ height: 80px;
+
+ text-align:center;
+
+}
+
+ .font-white {
+
+ color: #fff;
+
+ text-align: center;
+
+}
+
+ .iPhone {
+
+ float: none !important;
+
+ margin: auto;
+
+}
+
+ #subscription {
+
+ height: auto;
+
+}
+
+ #header {
+
+height: auto;
+
+}
+
+ #logo {
+
+ margin: 30px 0;
+
+}
+
+ .app-store-block {
+
+text-align:center;
+
+}
+
+ .social-icons li {
+
+ padding: 0 5px;
+
+}
+
+ h2 {
+
+ font-size: 34px;
+
+}
+
+ .social-icons {
+
+text-align:center!important;
+
+height: 40px;
+
+}
+
+ nav[role="navigation"] {
+
+ height: auto;
+
+}
+
+ .form-control {
+
+ margin: auto;
+
+width:100% !important;
+
+max-width:350px;
+
+}
+
+ .btn-default {
+
+margin:auto;
+
+}
+
+ #footer {
+
+ padding-top: 20px;
+
+ padding-bottom: 20px;
+
+}
+
+ #subscription .row {
+
+ display: block;
+
+ vertical-align: middle;
+
+}
+
+ #subscription {
+
+ display: block!important;
+
+}
+
+}
+
+#mce-responses{
+
+	margin: 30px 0;
+
+    font-size: 12px;
+
+    line-height: 22px;
+
+}
+
+
+
+#mce-error-response{color:red;}
+
+
+
+#mce-success-response{color:green;}
+
+
+
+.que{ font-weight: 700; color: red; }
+
+
+
+ul, ol{ font-size:12px; }
